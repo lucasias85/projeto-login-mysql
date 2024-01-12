@@ -12,10 +12,10 @@ namespace Projeto_Login_MySQL.Code.DAL
     {
         private MySqlConnection conn;
 
-        private string myServer = "";
-        private string myUser = "";
-        private string myPass = "";
-        private string myDatabase = "";
+        private string myServer = "srv848.hstgr.io";
+        private string myUser = "u269685050_root";
+        private string myPass = "VisualStudio2019";
+        private string myDatabase = "u269685050_bauxita";
 
         public void Conectar()
         {

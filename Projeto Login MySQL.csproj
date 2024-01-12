@@ -98,12 +98,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\BLL\UsuarioBLL.cs" />
     <Compile Include="Code\DAL\AcessarBancoDados.cs" />
+    <Compile Include="Code\DTO\UsuarioDTO.cs" />
     <Compile Include="Code\GUI\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Code\GUI\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\GUI\FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\GUI\FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,5 +141,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

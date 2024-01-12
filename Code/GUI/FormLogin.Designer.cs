@@ -111,6 +111,7 @@ namespace Projeto_Login_MySQL
             this.buttonEntrar.TabIndex = 6;
             this.buttonEntrar.Text = "Acessar Sistema";
             this.buttonEntrar.UseVisualStyleBackColor = false;
+            this.buttonEntrar.Click += new System.EventHandler(this.buttonEntrar_Click);
             // 
             // buttonSair
             // 
@@ -123,6 +124,7 @@ namespace Projeto_Login_MySQL
             this.buttonSair.TabIndex = 7;
             this.buttonSair.Text = "Sair";
             this.buttonSair.UseVisualStyleBackColor = true;
+            this.buttonSair.Click += new System.EventHandler(this.buttonSair_Click);
             // 
             // FormLogin
             // 
