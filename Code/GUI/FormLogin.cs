@@ -46,8 +46,8 @@ namespace Projeto_Login_MySQL
                                    "Error", MessageBoxButtons.YesNo,
                                    MessageBoxIcon.Exclamation,
                                    MessageBoxDefaultButton.Button1, 0);
-                
-                if(result == DialogResult.Yes)
+
+                if (result == DialogResult.Yes)
                 {
                     textBoxNomeUsuario.Clear();
                     textBoxSenha.Clear();
